@@ -49,7 +49,7 @@ def main():
     bad_price = df[df["unit_price"] <= 0]
     if len(bad_qty) > 0 or len(bad_price) > 0:
         print(f"\n⚠️  WARNING: {len(bad_qty)} rows have quantity <= 0, "
-              f"{len(bad_price)} rows have unit_price <= 0.")
+                f"{len(bad_price)} rows have unit_price <= 0.")
         print("   These rows will still be imported, but check your Excel data.")
 
     conn = sqlite3.connect(DATABASE_PATH)
