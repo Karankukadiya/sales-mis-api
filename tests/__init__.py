@@ -1,1 +1,1 @@
-"""Tests package for Sales MIS API."""
+"""Tests package for Sales MIS API"""
