@@ -116,7 +116,7 @@ Clone the repository and create a virtual environment:
 
 ```bash
 # Clone repository
-git clone https://github.com/your-username/sales-mis-api.git
+git clone https://github.com/Karankukadiya/sales-mis-api.git
 cd sales-mis-api
 
 # Create and activate virtual environment
